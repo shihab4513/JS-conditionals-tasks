@@ -10,3 +10,15 @@ write a simple if-else.
 also, write it using ternary operator.
 
  */
+let num1=20,num2=10,result;
+
+if(num1>num2)
+{
+    result=num1*2;
+}
+else{
+    result=num1+num2;
+}
+console.log('Normal if else way result : ',result)
+result=(num1>num2)?(num1*2):(num1+num2);
+console.log('After writing with ternary operator, result: ',result,'Good luck!',2022,'Happy new year')
